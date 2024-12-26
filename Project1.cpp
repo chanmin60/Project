@@ -19,14 +19,14 @@ int main() {
 	const int SIZE = 5;
 	int numbers[SIZE];
 	
-	cout << "�ټ����� ���ڸ� �Է��ϼ���" << endl;
+	cout << "다섯 숫자를 입력하세요" << endl;
 		for (int i = 0; i < SIZE;i++) {
-			cout << "���� " << i << ": ";
+			cout << "숫자 " << i << ": ";
 			cin >> numbers[i];
 		}
 		int total = calculateSum(numbers, SIZE);
 		int average = calculateAverage(numbers, SIZE);
-	cout << "�հ�� : " << total << endl;
-	cout << "����� : dfasdfsdfsdf " << average << endl;
+	cout << "합계 : " << total << endl;
+	cout << "평균 : " << average << endl;
 	return 0;
 }
